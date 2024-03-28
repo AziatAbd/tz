@@ -6,7 +6,7 @@ const btnContainer = document.querySelector("#btn-container");
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 
-let page = 20;
+let page = 1;
 const BASE_URL = "https://rickandmortyapi.com/api/character";
 
 btnContainer.classList.add("is-visible");
